@@ -1,0 +1,165 @@
+html{
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.navbar-nav{
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.nosotros{
+    text-align: justify;
+    line-height: 2em;
+}
+
+.vision{
+    text-align: justify;
+    line-height: 2em;
+}
+
+.card-text{
+    text-align: justify;
+    line-height: 1em;
+}
+
+/*ajusta la imagen de nosotros*/
+.col-6 img{
+    width: 500px;
+    height: 300px;
+}
+/*ajusta las card*/
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-4 {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+.submenu{
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color:#0c0b0b;
+    transition: background-color 0.3s; /* Animación suave para el cambio de color */
+}
+
+.menu li a:hover {
+    background-color:#575757; /* Color de fondo cuando se pasa el cursor */
+}
+
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+
+
+header h1 {
+    font-style: 4rem;
+    text-align: center;
+}
+
+header img{
+    float: left;
+}
+
+.contenedor img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.contenedor{
+   
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p, article a{
+
+    margin: 1rem;
+}
+
+section h3{
+
+    margin: 1rem;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color:azure;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+
+    color: aquamarine;
+
+
+}
